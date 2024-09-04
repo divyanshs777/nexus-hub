@@ -159,6 +159,7 @@ app.get("/userprofile",middleware.isLoggedIn,function(req,res){
                   console.log(err);
                 }
                 else { 
+                  console.log("******************************************************", foundProject)
 
                   User.findById(foundProject.owner.id,function(err,foundOwner){
                      if(err){
