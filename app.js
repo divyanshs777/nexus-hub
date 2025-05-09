@@ -36,7 +36,7 @@ app.use(methodOverride("_method"));
 app.set("view engine","ejs");
 
 
-mongoose.connect("mongodb+srv://divyansh777singh777:div777@cluster0.wngxlgh.mongodb.net/", { useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify:false});
+mongoose.connect("mongodb+srv://divyansh777singh777:BQ8cJ4Cj3Y4rKWnE@cluster0.bx4xn3q.mongodb.net/", { useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify:false});
 
 
 //Setting up passport
